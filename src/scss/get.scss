@@ -1,0 +1,25 @@
+.get {
+  background-image: url("@img/get/img-01.png");
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__title {
+    max-width: 350px;
+    margin-top: 120px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #48555b;
+  }
+
+  &__btn {
+    margin-bottom: 230px;
+  }
+}

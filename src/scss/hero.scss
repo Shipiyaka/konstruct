@@ -1,0 +1,39 @@
+.hero {
+  &__container {
+    background-image: url("@img/hero/bg.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-top: 317px;
+    margin-bottom: 21px;
+    font-family: "BebasNeue";
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    margin-bottom: 221px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+  &__text {
+    margin-bottom: 71px;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    letter-spacing: 3.7px;
+    color: #ffffff;
+  }
+
+  &__img {
+    margin-top: 41px;
+  }
+}
