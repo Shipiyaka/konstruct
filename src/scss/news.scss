@@ -1,0 +1,27 @@
+.news {
+  background-color: #171819;
+
+  &__container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    margin-right: 70px;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.846154px;
+    color: #ffffff;
+  }
+
+  &__input {
+    padding: 11px 16px;
+  }
+
+  &__btn {
+    // border: 1px solid #00a4e5;
+  }
+}
